@@ -4,3 +4,5 @@ for number in range(1, len(numbers)):
     if numbers[number] != numbers[number - 1] + 1:
         print(f"The first non-consecutive number in the list: {numbers[number]}")
         break
+else:
+    print(f'{numbers} list is consecutive')
