@@ -10,7 +10,7 @@ my_tuple = (1, 2, 3, 4, 5)
 # for loop
 
 for number in numbers_str:
-    idx = numbers_str.index(number)     # 0
+    idx = numbers_str.index(number)  # 0
     if number in numbers_str[idx + 1:]:
         numbers_str.remove(number)
 
@@ -107,6 +107,3 @@ for letter in data:
     if letter in vowels:
         count += 1
 print(f'Count of  vowels letters in {data} string is {count}')
-
-
-
