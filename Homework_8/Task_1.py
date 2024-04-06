@@ -1,5 +1,5 @@
-
-roles = {'admin': 'Vitalii', 'maintainer': 'Josh', 'manager': 'Will', 'developer': 'Steve'}
+roles = {'admin': ['Vitalii', 'Oleh'], 'maintainer': ['Jeremy', 'Josh'], 'manager': ['Oscar', 'Will'],
+         'developer': ['Tony', 'Steve']}
 user_name = input('Enter name: ')
 
 found_role = None
@@ -12,5 +12,3 @@ if found_role:
     print(f'Hello, {found_role}')
 else:
     print('Hello, Guest!')
-
-
